@@ -1,0 +1,60 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting transformers
+  Downloading transformers-4.56.0-py3-none-any.whl.metadata (40 kB)
+     -------------------------------------- 40.1/40.1 kB 636.0 kB/s eta 0:00:00
+Requirement already satisfied: filelock in c:\users\lea26\appdata\roaming\python\python311\site-packages (from transformers) (3.13.1)
+Collecting huggingface-hub<1.0,>=0.34.0 (from transformers)
+  Downloading huggingface_hub-0.34.4-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: numpy>=1.17 in c:\users\lea26\appdata\roaming\python\python311\site-packages (from transformers) (2.1.2)
+Requirement already satisfied: packaging>=20.0 in c:\users\lea26\appdata\roaming\python\python311\site-packages (from transformers) (25.0)
+Collecting pyyaml>=5.1 (from transformers)
+  Downloading PyYAML-6.0.2-cp311-cp311-win_amd64.whl.metadata (2.1 kB)
+Collecting regex!=2019.12.17 (from transformers)
+  Downloading regex-2025.8.29-cp311-cp311-win_amd64.whl.metadata (41 kB)
+     ---------------------------------------- 41.5/41.5 kB ? eta 0:00:00
+Collecting requests (from transformers)
+  Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers)
+  Downloading tokenizers-0.22.0-cp39-abi3-win_amd64.whl.metadata (6.9 kB)
+Collecting safetensors>=0.4.3 (from transformers)
+  Downloading safetensors-0.6.2-cp38-abi3-win_amd64.whl.metadata (4.1 kB)
+Collecting tqdm>=4.27 (from transformers)
+  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+     ---------------------------------------- 57.7/57.7 kB 3.0 MB/s eta 0:00:00
+Requirement already satisfied: fsspec>=2023.5.0 in c:\users\lea26\appdata\roaming\python\python311\site-packages (from huggingface-hub<1.0,>=0.34.0->transformers) (2024.6.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\lea26\appdata\roaming\python\python311\site-packages (from huggingface-hub<1.0,>=0.34.0->transformers) (4.12.2)
+Requirement already satisfied: colorama in c:\users\lea26\appdata\roaming\python\python311\site-packages (from tqdm>=4.27->transformers) (0.4.6)
+Collecting charset_normalizer<4,>=2 (from requests->transformers)
+  Downloading charset_normalizer-3.4.3-cp311-cp311-win_amd64.whl.metadata (37 kB)
+Collecting idna<4,>=2.5 (from requests->transformers)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests->transformers)
+  Downloading urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests->transformers)
+  Downloading certifi-2025.8.3-py3-none-any.whl.metadata (2.4 kB)
+Downloading transformers-4.56.0-py3-none-any.whl (11.6 MB)
+   ---------------------------------------- 11.6/11.6 MB 59.5 MB/s eta 0:00:00
+Downloading huggingface_hub-0.34.4-py3-none-any.whl (561 kB)
+   --------------------------------------- 561.5/561.5 kB 36.7 MB/s eta 0:00:00
+Downloading PyYAML-6.0.2-cp311-cp311-win_amd64.whl (161 kB)
+   ---------------------------------------- 162.0/162.0 kB 9.5 MB/s eta 0:00:00
+Downloading regex-2025.8.29-cp311-cp311-win_amd64.whl (276 kB)
+   --------------------------------------- 276.1/276.1 kB 16.6 MB/s eta 0:00:00
+Downloading safetensors-0.6.2-cp38-abi3-win_amd64.whl (320 kB)
+   ---------------------------------------- 320.2/320.2 kB ? eta 0:00:00
+Downloading tokenizers-0.22.0-cp39-abi3-win_amd64.whl (2.7 MB)
+   ---------------------------------------- 2.7/2.7 MB 56.8 MB/s eta 0:00:00
+Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+   ---------------------------------------- 78.5/78.5 kB ? eta 0:00:00
+Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+   ---------------------------------------- 64.7/64.7 kB ? eta 0:00:00
+Downloading certifi-2025.8.3-py3-none-any.whl (161 kB)
+   ---------------------------------------- 161.2/161.2 kB 9.4 MB/s eta 0:00:00
+Downloading charset_normalizer-3.4.3-cp311-cp311-win_amd64.whl (107 kB)
+   ---------------------------------------- 107.1/107.1 kB ? eta 0:00:00
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+   ---------------------------------------- 70.4/70.4 kB 4.0 MB/s eta 0:00:00
+Downloading urllib3-2.5.0-py3-none-any.whl (129 kB)
+   ---------------------------------------- 129.8/129.8 kB ? eta 0:00:00
+Installing collected packages: urllib3, tqdm, safetensors, regex, pyyaml, idna, charset_normalizer, certifi, requests, huggingface-hub, tokenizers, transformers
+Successfully installed certifi-2025.8.3 charset_normalizer-3.4.3 huggingface-hub-0.34.4 idna-3.10 pyyaml-6.0.2 regex-2025.8.29 requests-2.32.5 safetensors-0.6.2 tokenizers-0.22.0 tqdm-4.67.1 transformers-4.56.0 urllib3-2.5.0
